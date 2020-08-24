@@ -4,45 +4,45 @@ New Testament stats - https://thebible.life/how-many-chapters-in-each-book-of-th
 collection (weighted by # of pages) - book (weighted by # of pages) - then chapters are weighted by # of verses
 
 Old Testament (1184) 47.97%
-  - Genesis (78)
-  - Exodus (67)
-  - Leviticus (45)
-  - Numbers (62)
-  - Deuteronomy (56)
-  - Joshua (35)
-  - Judges (33)
-  - Ruth (5)
-  - 1 Samuel (45)
-  - 2 Samuel (36)
-  - 1 Kings (45)
-  - 2 Kings (41)
-  - 1 Chronicles (39)
-  - 2 Chronicles (47)
-  - Ezra (14)
-  - Nehemiah (20)
-  - Esther (10)
-  - Job (36)
-  - Psalms (97)
-  - Proverbs (34)
-  - Ecclesiastes (11)
-  - Song of Solomon (5)
-  - Isaiah (80)
-  - Jeremiah (79)
-  - Lamentations (6)
-  - Ezekiel (73)
-  - Daniel (22)
-  - Hosea (11)
-  - Joel (5)
-  - Amos (9)
-  - Obadiah (1)
-  - Jonah (3)
-  - Micah (6)
-  - Nahum (3)
-  - Habakkuk (3)
-  - Zephaniah (3)
-  - Haggai (3)
-  - Zechariah (12)
-  - Malachi (6)
+  - Genesis (78) 6.59%
+  - Exodus (67) 5.66%
+  - Leviticus (45) 3.80
+  - Numbers (62) 5.24
+  - Deuteronomy (56) 4.73
+  - Joshua (35) 2.96
+  - Judges (33) 2.79
+  - Ruth (5) 0.42
+  - 1 Samuel (45) 3.80
+  - 2 Samuel (36) 3.04
+  - 1 Kings (45) 3.80
+  - 2 Kings (41) 3.46
+  - 1 Chronicles (39) 3.29
+  - 2 Chronicles (47) 3.97
+  - Ezra (14) 1.18
+  - Nehemiah (20) 1.69
+  - Esther (10) 0.84
+  - Job (36) 3.04
+  - Psalms (97) 8.19
+  - Proverbs (34) 2.87
+  - Ecclesiastes (11) 0.93
+  - Song of Solomon (5) 0.42
+  - Isaiah (80) 6.76
+  - Jeremiah (79) 6.67
+  - Lamentations (6) 0.51
+  - Ezekiel (73) 6.16
+  - Daniel (22) 1.86
+  - Hosea (11) 0.93
+  - Joel (5) 0.42
+  - Amos (9) 0.76
+  - Obadiah (1) 0.08
+  - Jonah (3) 0.25
+  - Micah (6) 0.51
+  - Nahum (3) 0.25
+  - Habakkuk (3) 0.25
+  - Zephaniah (3) 0.25
+  - Haggai (3) 0.25
+  - Zechariah (12) 1.01
+  - Malachi (6) 0.51
 
 New Testament (403) 16.33%
   - Matthew (55)
