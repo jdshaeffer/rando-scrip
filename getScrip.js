@@ -69,6 +69,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
     zechariah : .0101,
     malachi: .0051
   };
+
 } else if (getWeightedRandomNum(collectionSpec)() === 'nt') {
   bookSpec = {
     matthew: .1365,
@@ -99,6 +100,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
     jude: .0050,
     revelation: .0595
   };
+
 } else if (getWeightedRandomNum(collectionSpec)() === 'bom') {
   bookSpec = {
     nephi1: .0991,
@@ -188,6 +190,8 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(26)
     } else if (Number(getWeightedRandomNum(chapterSpec)()) === 22) {
       verse = getRandomVerse(31)
+    }
+
   } else if (getWeightedRandomNum(bookSpec)() === 'nephi2') {
     chapterSpec = {
       1: parseFloat((32/779).toFixed(4)),
@@ -224,6 +228,75 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       32: parseFloat((9/779).toFixed(4)),
       33: parseFloat((15/779).toFixed(4))
     };
+
+    if (Number(getWeightedRandomNum(chapterSpec)()) === 1) {
+      verse = getRandomVerse(32)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 2) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 3) {
+      verse = getRandomVerse(25)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 4) {
+      verse = getRandomVerse(35)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 5) {
+      verse = getRandomVerse(34)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 6) {
+      verse = getRandomVerse(18)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 7) {
+      verse = getRandomVerse(11)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 8) {
+      verse = getRandomVerse(25)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 9) {
+      verse = getRandomVerse(54)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 10) {
+      verse = getRandomVerse(25)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 11) {
+      verse = getRandomVerse(8)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 12) {
+      verse = getRandomVerse(22)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 13) {
+      verse = getRandomVerse(26)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 14) {
+      verse = getRandomVerse(6)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 15) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 16) {
+      verse = getRandomVerse(13)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 17) {
+      verse = getRandomVerse(25)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 18) {
+      verse = getRandomVerse(22)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 19) {
+      verse = getRandomVerse(21)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 20) {
+      verse = getRandomVerse(34)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 21) {
+      verse = getRandomVerse(16)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 22) {
+      verse = getRandomVerse(6)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 23) {
+      verse = getRandomVerse(22)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 24) {
+      verse = getRandomVerse(32)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 25) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 26) {
+      verse = getRandomVerse(33)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 27) {
+      verse = getRandomVerse(35)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 28) {
+      verse = getRandomVerse(32)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 29) {
+      verse = getRandomVerse(14)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 30) {
+      verse = getRandomVerse(18)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 31) {
+      verse = getRandomVerse(21)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 32) {
+      verse = getRandomVerse(9)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 33) {
+      verse = getRandomVerse(15)
+    }
+
   } else if (getWeightedRandomNum(bookSpec)() === 'jacob') {
     chapterSpec = {
       1: parseFloat((19/203).toFixed(4)),
@@ -234,6 +307,23 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       6: parseFloat((6/203).toFixed(4)),
       7: parseFloat((27/203).toFixed(4))
     };
+
+    if (Number(getWeightedRandomNum(chapterSpec)()) === 1) {
+      verse = getRandomVerse(19)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 2) {
+      verse = getRandomVerse(35)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 3) {
+      verse = getRandomVerse(14)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 4) {
+      verse = getRandomVerse(18)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 5) {
+      verse = getRandomVerse(77)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 6) {
+      verse = getRandomVerse(6)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 7) {
+      verse = getRandomVerse(27)
+    }
+
   } else if (getWeightedRandomNum(bookSpec)() === 'enos') {
     // skip chapterSpec
   } else if (getWeightedRandomNum(bookSpec)() === 'jarom') {
@@ -274,6 +364,67 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       28: parseFloat((20/785).toFixed(4)),
       29: parseFloat((47/785).toFixed(4))
     };
+
+    if (Number(getWeightedRandomNum(chapterSpec)()) === 1) {
+      verse = getRandomVerse(18)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 2) {
+      verse = getRandomVerse(41)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 3) {
+      verse = getRandomVerse(27)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 4) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 5) {
+      verse = getRandomVerse(15)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 6) {
+      verse = getRandomVerse(7)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 7) {
+      verse = getRandomVerse(33)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 8) {
+      verse = getRandomVerse(21)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 9) {
+      verse = getRandomVerse(19)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 10) {
+      verse = getRandomVerse(22)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 11) {
+      verse = getRandomVerse(29)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 12) {
+      verse = getRandomVerse(37)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 13) {
+      verse = getRandomVerse(35)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 14) {
+      verse = getRandomVerse(12)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 15) {
+      verse = getRandomVerse(31)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 16) {
+      verse = getRandomVerse(15)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 17) {
+      verse = getRandomVerse(20)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 18) {
+      verse = getRandomVerse(35)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 19) {
+      verse = getRandomVerse(29)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 20) {
+      verse = getRandomVerse(26)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 21) {
+      verse = getRandomVerse(36)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 22) {
+      verse = getRandomVerse(16)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 23) {
+      verse = getRandomVerse(39)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 24) {
+      verse = getRandomVerse(25)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 25) {
+      verse = getRandomVerse(24)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 26) {
+      verse = getRandomVerse(39)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 27) {
+      verse = getRandomVerse(37)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 28) {
+      verse = getRandomVerse(20)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 29) {
+      verse = getRandomVerse(47)
+    }
+
   } else if (getWeightedRandomNum(bookSpec)() === 'alma') {
     chapterSpec = {
       1: parseFloat((33/1975).toFixed(4)),
@@ -340,6 +491,135 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       62: parseFloat((52/1975).toFixed(4)),
       63: parseFloat((17/1975).toFixed(4))
     };
+
+    if (Number(getWeightedRandomNum(chapterSpec)()) === 1) {
+      verse = getRandomVerse(33)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 2) {
+      verse = getRandomVerse(38)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 3) {
+      verse = getRandomVerse(27)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 4) {
+      verse = getRandomVerse(20)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 5) {
+      verse = getRandomVerse(62)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 6) {
+      verse = getRandomVerse(8)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 7) {
+      verse = getRandomVerse(27)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 8) {
+      verse = getRandomVerse(32)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 9) {
+      verse = getRandomVerse(34)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 10) {
+      verse = getRandomVerse(32)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 11) {
+      verse = getRandomVerse(46)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 12) {
+      verse = getRandomVerse(37)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 13) {
+      verse = getRandomVerse(31)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 14) {
+      verse = getRandomVerse(29)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 15) {
+      verse = getRandomVerse(19)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 16) {
+      verse = getRandomVerse(21)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 17) {
+      verse = getRandomVerse(39)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 18) {
+      verse = getRandomVerse(43)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 19) {
+      verse = getRandomVerse(36)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 20) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 21) {
+      verse = getRandomVerse(23)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 22) {
+      verse = getRandomVerse(35)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 23) {
+      verse = getRandomVerse(18)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 24) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 25) {
+      verse = getRandomVerse(17)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 26) {
+      verse = getRandomVerse(37)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 27) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 28) {
+      verse = getRandomVerse(14)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 29) {
+      verse = getRandomVerse(17)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 30) {
+      verse = getRandomVerse(60)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 31) {
+      verse = getRandomVerse(38)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 32) {
+      verse = getRandomVerse(43)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 33) {
+      verse = getRandomVerse(23)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 34) {
+      verse = getRandomVerse(41)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 35) {
+      verse = getRandomVerse(16)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 36) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 37) {
+      verse = getRandomVerse(47)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 38) {
+      verse = getRandomVerse(15)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 39) {
+      verse = getRandomVerse(19)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 40) {
+      verse = getRandomVerse(26)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 41) {
+      verse = getRandomVerse(15)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 42) {
+      verse = getRandomVerse(31)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 43) {
+      verse = getRandomVerse(54)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 44) {
+      verse = getRandomVerse(24)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 45) {
+      verse = getRandomVerse(24)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 46) {
+      verse = getRandomVerse(41)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 47) {
+      verse = getRandomVerse(36)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 48) {
+      verse = getRandomVerse(25)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 49) {
+      verse = getRandomVerse(30)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 50) {
+      verse = getRandomVerse(40)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 51) {
+      verse = getRandomVerse(37)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 52) {
+      verse = getRandomVerse(40)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 53) {
+      verse = getRandomVerse(23)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 54) {
+      verse = getRandomVerse(24)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 55) {
+      verse = getRandomVerse(35)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 56) {
+      verse = getRandomVerse(57)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 57) {
+      verse = getRandomVerse(36)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 58) {
+      verse = getRandomVerse(41)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 59) {
+      verse = getRandomVerse(13)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 60) {
+      verse = getRandomVerse(36)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 61) {
+      verse = getRandomVerse(21)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 62) {
+      verse = getRandomVerse(52)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 63) {
+      verse = getRandomVerse(17)
+    }
+
   } else if (getWeightedRandomNum(bookSpec)() === 'helaman') {
     chapterSpec = {
       1: parseFloat((34/497).toFixed(4)),
@@ -359,6 +639,41 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       15: parseFloat((17/497).toFixed(4)),
       16: parseFloat((25/497).toFixed(4))
     };
+
+    if (Number(getWeightedRandomNum(chapterSpec)()) === 1) {
+      verse = getRandomVerse(34)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 2) {
+      verse = getRandomVerse(14)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 3) {
+      verse = getRandomVerse(37)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 4) {
+      verse = getRandomVerse(26)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 5) {
+      verse = getRandomVerse(52)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 6) {
+      verse = getRandomVerse(41)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 7) {
+      verse = getRandomVerse(29)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 8) {
+      verse = getRandomVerse(28)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 9) {
+      verse = getRandomVerse(41)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 10) {
+      verse = getRandomVerse(19)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 11) {
+      verse = getRandomVerse(38)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 12) {
+      verse = getRandomVerse(26)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 13) {
+      verse = getRandomVerse(39)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 14) {
+      verse = getRandomVerse(31)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 15) {
+      verse = getRandomVerse(17)
+    } else if (Number(getWeightedRandomNum(chapterSpec)()) === 16) {
+      verse = getRandomVerse(25)
+    }
+
   } else if (getWeightedRandomNum(bookSpec)() === 'nephi3') {
     chapterSpec = {
       1: parseFloat((30/785).toFixed(4)),
@@ -392,6 +707,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       29: parseFloat((9/785).toFixed(4)),
       30: parseFloat((2/785).toFixed(4))
     };
+
   } else if (getWeightedRandomNum(bookSpec)() === 'nephi4') {
     // skip chapterSpec
   } else if (getWeightedRandomNum(bookSpec)() === 'mormon') {
