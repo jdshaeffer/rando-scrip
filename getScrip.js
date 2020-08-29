@@ -1352,8 +1352,89 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
   const bookSpec = {
     moses: .4590,
     abraham: .2295,
-    josephSmithMatthew: .0655,
-    josephSmithHistory: .2295,
-    articlesOfFaith: .0246
+    joseph_smith_matthew: .0655,
+    joseph_smith_history: .2295,
+    articles_of_faith: .0246
   };
+
+  if (getWeightedRandomNum(bookSpec)() === 'moses') {
+    chapterSpec = {
+      1: parseFloat((42/356).toFixed(4)),
+      2: parseFloat((31/356).toFixed(4)),
+      3: parseFloat((25/356).toFixed(4)),
+      4: parseFloat((32/356).toFixed(4)),
+      5: parseFloat((59/356).toFixed(4)),
+      6: parseFloat((68/356).toFixed(4)),
+      7: parseFloat((69/356).toFixed(4)),
+      8: parseFloat((30/356).toFixed(4))
+    };
+
+    chapter = Number(getWeightedRandomNum(chapterSpec)())
+
+    if (chapter === 1) {
+      verse = getRandomVerse(42)
+    } else if (chapter === 2) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 3) {
+      verse = getRandomVerse(25)
+    } else if (chapter === 4) {
+      verse = getRandomVerse(32)
+    } else if (chapter === 5) {
+      verse = getRandomVerse(59)
+    } else if (chapter === 6) {
+      verse = getRandomVerse(68)
+    } else if (chapter === 7) {
+      verse = getRandomVerse(69)
+    } else if (chapter === 8) {
+      verse = getRandomVerse(30)
+    }
+
+  } else if (getWeightedRandomNum(bookSpec)() === 'abraham') {
+    chapterSpec = {
+      1: parseFloat((31/139).toFixed(4)),
+      2: parseFloat((25/139).toFixed(4)),
+      3: parseFloat((28/139).toFixed(4)),
+      4: parseFloat((31/139).toFixed(4)),
+      5: parseFloat((21/139).toFixed(4)),
+      6: parseFloat((1/139).toFixed(4)), // fascimile 1
+      7: parseFloat((1/139).toFixed(4)), // fascimile 2
+      8: parseFloat((1/139).toFixed(4)), // fascimile 3
+    };
+
+    chapter = Number(getWeightedRandomNum(chapterSpec)())
+
+    if (chapter === 1) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 2) {
+      verse = getRandomVerse(25)
+    } else if (chapter === 3) {
+      verse = getRandomVerse(28)
+    } else if (chapter === 4) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 5) {
+      verse = getRandomVerse(21)
+    } else if (chapter === 6) {
+      chapter = 'fascimiles'
+      verse = 1
+    } else if (chapter === 7) {
+      chapter = 'fascimiles'
+      verse = 2
+    } else if (chapter === 8) {
+      chapter = 'fascimiles'
+      verse = 3
+    }
+
+  } else if (getWeightedRandomNum(bookSpec)() === 'joseph_smith_matthew') {
+    chapter = 1
+    verse = getRandomVerse(55)
+
+  } else if (getWeightedRandomNum(bookSpec)() === 'joseph_smith_history') {
+    chapter = 1
+    verse = getRandomVerse(75)
+
+  } else if (getWeightedRandomNum(bookSpec)() === 'articles_of_faith') {
+    chapter = 1
+    verse = getRandomVerse(13)
+
+  }
 }
