@@ -17,19 +17,23 @@ const getWeightedRandomNum = spec => {
 }
 
 const collectionSpec = {
-  ot: .4797,
-  nt: .1633,
-  bom: .2147,
-  dc: .1175,
-  p: .0248
+  // ot: .4797,
+  // nt: .1633,
+  // bom: .2147,
+  // dc: .1175,
+  // p: .0248
+  bom: .5000,
+  dc: .3000,
+  p: .2000
 };
+const collection = getWeightedRandomNum(collectionSpec)();
 let bookSpec = {};
 let book;
 let chapterSpec = {};
 let chapter;
 let verse;
 
-if (getWeightedRandomNum(collectionSpec)() === 'ot') {
+if (collection === 'ot') {
   bookSpec = {
     genesis: .0659,
     exodus: .0566,
@@ -68,11 +72,158 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
     habakkuk: .0025,
     zephaniah: .0025,
     haggai: .0025,
-    zechariah : .0101,
+    zechariah: .0101,
     malachi: .0051
   };
 
-} else if (getWeightedRandomNum(collectionSpec)() === 'nt') {
+  book = getWeightedRandomNum(bookSpec)();
+
+  if (book === 'genesis') {
+    chapterSpec = {
+      1: parseFloat((31/1533).toFixed(4)),
+      2: parseFloat((25/1533).toFixed(4)),
+      3: parseFloat((24/1533).toFixed(4)),
+      4: parseFloat((26/1533).toFixed(4)),
+      5: parseFloat((32/1533).toFixed(4)),
+      6: parseFloat((22/1533).toFixed(4)),
+      7: parseFloat((24/1533).toFixed(4)),
+      8: parseFloat((22/1533).toFixed(4)),
+      9: parseFloat((29/1533).toFixed(4)),
+      10: parseFloat((32/1533).toFixed(4)),
+      11: parseFloat((32/1533).toFixed(4)),
+      12: parseFloat((20/1533).toFixed(4)),
+      13: parseFloat((18/1533).toFixed(4)),
+      14: parseFloat((24/1533).toFixed(4)),
+      15: parseFloat((21/1533).toFixed(4)),
+      16: parseFloat((16/1533).toFixed(4)),
+      17: parseFloat((27/1533).toFixed(4)),
+      18: parseFloat((33/1533).toFixed(4)),
+      19: parseFloat((38/1533).toFixed(4)),
+      20: parseFloat((18/1533).toFixed(4)),
+      21: parseFloat((34/1533).toFixed(4)),
+      22: parseFloat((24/1533).toFixed(4)),
+      23: parseFloat((20/1533).toFixed(4)),
+      24: parseFloat((67/1533).toFixed(4)),
+      25: parseFloat((34/1533).toFixed(4)),
+      26: parseFloat((35/1533).toFixed(4)),
+      27: parseFloat((46/1533).toFixed(4)),
+      28: parseFloat((22/1533).toFixed(4)),
+      29: parseFloat((35/1533).toFixed(4)),
+      30: parseFloat((43/1533).toFixed(4)),
+      31: parseFloat((55/1533).toFixed(4)),
+      32: parseFloat((32/1533).toFixed(4)),
+      33: parseFloat((20/1533).toFixed(4)),
+      34: parseFloat((31/1533).toFixed(4)),
+      35: parseFloat((29/1533).toFixed(4)),
+      36: parseFloat((43/1533).toFixed(4)),
+      37: parseFloat((36/1533).toFixed(4)),
+      38: parseFloat((30/1533).toFixed(4)),
+      39: parseFloat((23/1533).toFixed(4)),
+      40: parseFloat((23/1533).toFixed(4)),
+      41: parseFloat((57/1533).toFixed(4)),
+      42: parseFloat((38/1533).toFixed(4)),
+      43: parseFloat((34/1533).toFixed(4)),
+      44: parseFloat((34/1533).toFixed(4)),
+      45: parseFloat((28/1533).toFixed(4)),
+      46: parseFloat((34/1533).toFixed(4)),
+      47: parseFloat((31/1533).toFixed(4)),
+      48: parseFloat((22/1533).toFixed(4)),
+      49: parseFloat((33/1533).toFixed(4)),
+      50: parseFloat((26/1533).toFixed(4))
+    };
+
+    chapter = Number(getWeightedRandomNum(chapterSpec)())
+
+    // if (chapter === 1) {
+    //   verse = getRandomVerse(20)
+    // } else if (chapter === 2) {
+    //   verse = getRandomVerse(24)
+    // }
+    
+  } else if (book === 'exodus') {
+    chapterSpec = {
+      1: parseFloat((22/1213).toFixed(4)),
+      2: parseFloat((25/1213).toFixed(4)),
+      3: parseFloat((22/1213).toFixed(4)),
+      4: parseFloat((31/1213).toFixed(4)),
+      5: parseFloat((23/1213).toFixed(4)),
+      6: parseFloat((30/1213).toFixed(4)),
+      7: parseFloat((25/1213).toFixed(4)),
+      8: parseFloat((32/1213).toFixed(4)),
+      9: parseFloat((35/1213).toFixed(4)),
+      10: parseFloat((29/1213).toFixed(4)),
+      11: parseFloat((10/1213).toFixed(4)),
+      12: parseFloat((51/1213).toFixed(4)),
+      13: parseFloat((22/1213).toFixed(4)),
+      14: parseFloat((31/1213).toFixed(4)),
+      15: parseFloat((27/1213).toFixed(4)),
+      16: parseFloat((36/1213).toFixed(4)),
+      17: parseFloat((16/1213).toFixed(4)),
+      18: parseFloat((27/1213).toFixed(4)),
+      19: parseFloat((25/1213).toFixed(4)),
+      20: parseFloat((26/1213).toFixed(4)),
+      21: parseFloat((36/1213).toFixed(4)),
+      22: parseFloat((31/1213).toFixed(4)),
+      23: parseFloat((33/1213).toFixed(4)),
+      24: parseFloat((18/1213).toFixed(4)),
+      25: parseFloat((40/1213).toFixed(4)),
+      26: parseFloat((37/1213).toFixed(4)),
+      27: parseFloat((21/1213).toFixed(4)),
+      28: parseFloat((43/1213).toFixed(4)),
+      29: parseFloat((46/1213).toFixed(4)),
+      30: parseFloat((38/1213).toFixed(4)),
+      31: parseFloat((18/1213).toFixed(4)),
+      32: parseFloat((35/1213).toFixed(4)),
+      33: parseFloat((23/1213).toFixed(4)),
+      34: parseFloat((35/1213).toFixed(4)),
+      35: parseFloat((35/1213).toFixed(4)),
+      36: parseFloat((38/1213).toFixed(4)),
+      37: parseFloat((29/1213).toFixed(4)),
+      38: parseFloat((31/1213).toFixed(4)),
+      39: parseFloat((43/1213).toFixed(4)),
+      40: parseFloat((38/1213).toFixed(4))
+    };
+
+  } else if (book === 'leviticus') {
+  } else if (book === 'numbers') {
+  } else if (book === 'deuteronomy') {
+  } else if (book === 'joshua') {
+  } else if (book === 'judges') {
+  } else if (book === 'ruth') {
+  } else if (book === 'samuel1') {
+  } else if (book === 'samuel2') {
+  } else if (book === 'kings1') {
+  } else if (book === 'kings2') {
+  } else if (book === 'chronicles1') {
+  } else if (book === 'chronicles2') {
+  } else if (book === 'ezra') {
+  } else if (book === 'nehemiah') {
+  } else if (book === 'esther') {
+  } else if (book === 'job') {
+  } else if (book === 'psalms') {
+  } else if (book === 'proverbs') {
+  } else if (book === 'ecclesiastes') {
+  } else if (book === 'songOfSolomon') {
+  } else if (book === 'isaiah') {
+  } else if (book === 'jeremiah') {
+  } else if (book === 'lamentations') {
+  } else if (book === 'ezekiel') {
+  } else if (book === 'daniel') {
+  } else if (book === 'hosea') {
+  } else if (book === 'joel') {
+  } else if (book === 'amos') {
+  } else if (book === 'obadiah') {
+  } else if (book === 'jonah') {
+  } else if (book === 'micah') {
+  } else if (book === 'nahum') {
+  } else if (book === 'habakkuk') {
+  } else if (book === 'zephaniah') {
+  } else if (book === 'haggai') {
+  } else if (book === 'zechariah') {
+  } else if (book === 'malachi') {
+  }
+
+} else if (collection === 'nt') {
   bookSpec = {
     matthew: .1365,
     mark: .0744,
@@ -103,7 +254,38 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
     revelation: .0595
   };
 
-} else if (getWeightedRandomNum(collectionSpec)() === 'bom') {
+  book = getWeightedRandomNum(bookSpeck)()
+
+  if (book === 'matthew') {
+  } else if (book === 'mark') {
+  } else if (book === 'luke') {
+  } else if (book === 'john') {
+  } else if (book === 'acts') {
+  } else if (book === 'romans') {
+  } else if (book === 'corinthians1') {
+  } else if (book === 'corinthians2') {
+  } else if (book === 'galatians') {
+  } else if (book === 'ephesians') {
+  } else if (book === 'philippians') {
+  } else if (book === 'colossians') {
+  } else if (book === 'thessalonians1') {
+  } else if (book === 'thessalonians2') {
+  } else if (book === 'timothy1') {
+  } else if (book === 'timothy2') {
+  } else if (book === 'titus') {
+  } else if (book === 'philemon') {
+  } else if (book === 'hebrews') {
+  } else if (book === 'james') {
+  } else if (book === 'peter1') {
+  } else if (book === 'peter2') {
+  } else if (book === 'john1') {
+  } else if (book === 'john2') {
+  } else if (book === 'john3') {
+  } else if (book === 'jude') {
+  } else if (book === 'revelation') {
+  }
+
+} else if (collection === 'bom') {
   bookSpec = {
     nephi1: .0991,
     nephi2: .1207,
@@ -122,7 +304,9 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
     moroni: .0258,
   };
 
-  if (getWeightedRandomNum(bookSpec)() === 'nephi1') {
+  book = getWeightedRandomNum(bookSpec)();
+
+  if (book === 'nephi1') {
     chapterSpec = {
       1: parseFloat((20/618).toFixed(4)),
       2: parseFloat((24/618).toFixed(4)),
@@ -196,7 +380,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(31)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'nephi2') {
+  } else if (book === 'nephi2') {
     chapterSpec = {
       1: parseFloat((32/779).toFixed(4)),
       2: parseFloat((30/779).toFixed(4)),
@@ -303,7 +487,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(15)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'jacob') {
+  } else if (book === 'jacob') {
     chapterSpec = {
       1: parseFloat((19/203).toFixed(4)),
       2: parseFloat((35/203).toFixed(4)),
@@ -332,23 +516,23 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(27)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'enos') {
+  } else if (book === 'enos') {
     chapter = 1
     verse = getRandomVerse(27)
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'jarom') {
+  } else if (book === 'jarom') {
     chapter = 1
     verse = getRandomVerse(15)
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'omni') {
+  } else if (book === 'omni') {
     chapter = 1
     verse = getRandomVerse(30)
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'wordsOfMormon') {
+  } else if (book === 'wordsOfMormon') {
     chapter = 1
     verse = getRandomVerse(18)
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'mosiah') {
+  } else if (book === 'mosiah') {
     chapterSpec = {
       1: parseFloat((18/785).toFixed(4)),
       2: parseFloat((41/785).toFixed(4)),
@@ -443,7 +627,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(47)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'alma') {
+  } else if (book === 'alma') {
     chapterSpec = {
       1: parseFloat((33/1975).toFixed(4)),
       2: parseFloat((38/1975).toFixed(4)),
@@ -640,7 +824,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(17)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'helaman') {
+  } else if (book === 'helaman') {
     chapterSpec = {
       1: parseFloat((34/497).toFixed(4)),
       2: parseFloat((14/497).toFixed(4)),
@@ -696,7 +880,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(25)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'nephi3') {
+  } else if (book === 'nephi3') {
     chapterSpec = {
       1: parseFloat((30/785).toFixed(4)),
       2: parseFloat((19/785).toFixed(4)),
@@ -794,11 +978,11 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(2)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'nephi4') {
+  } else if (book === 'nephi4') {
     chapter = 1
     verse = getRandomVerse(49)
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'mormon') {
+  } else if (book === 'mormon') {
     chapterSpec = {
       1: parseFloat((19/227).toFixed(4)),
       2: parseFloat((29/227).toFixed(4)),
@@ -833,7 +1017,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(37)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'ether') {
+  } else if (book === 'ether') {
     chapterSpec = {
       1: parseFloat((43/433).toFixed(4)),
       2: parseFloat((25/433).toFixed(4)),
@@ -886,7 +1070,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(34)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'moroni') {
+  } else if (book === 'moroni') {
     chapterSpec = {
       1: parseFloat((4/263).toFixed(4)),
       2: parseFloat((3/263).toFixed(4)),
@@ -926,7 +1110,9 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
 
   }
 
-} else if (getWeightedRandomNum(collectionSpec)() === 'dc') {
+} else if (collection === 'dc') {
+  book = 'doctrineAndCovenants';
+
   chapterSpec = {
     1: parseFloat((39/3654).toFixed(4)),
     2: parseFloat((3/3654).toFixed(4)),
@@ -1348,16 +1534,18 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
     verse = getRandomVerse(17)
   }
 
-} else if (getWeightedRandomNum(collectionSpec)() === 'p') {
+} else if (collection === 'p') {
   const bookSpec = {
     moses: .4590,
     abraham: .2295,
-    joseph_smith_matthew: .0655,
-    joseph_smith_history: .2295,
-    articles_of_faith: .0246
+    josephSmithMatthew: .0655,
+    josephSmithHistory: .2295,
+    articlesOfFaith: .0246
   };
 
-  if (getWeightedRandomNum(bookSpec)() === 'moses') {
+  book = getWeightedRandomNum(bookSpec)();
+
+  if (book === 'moses') {
     chapterSpec = {
       1: parseFloat((42/356).toFixed(4)),
       2: parseFloat((31/356).toFixed(4)),
@@ -1389,7 +1577,7 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = getRandomVerse(30)
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'abraham') {
+  } else if (book === 'abraham') {
     chapterSpec = {
       1: parseFloat((31/139).toFixed(4)),
       2: parseFloat((25/139).toFixed(4)),
@@ -1424,17 +1612,23 @@ if (getWeightedRandomNum(collectionSpec)() === 'ot') {
       verse = 3
     }
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'joseph_smith_matthew') {
+  } else if (book === 'josephSmithMatthew') {
     chapter = 1
     verse = getRandomVerse(55)
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'joseph_smith_history') {
+  } else if (book === 'josephSmithHistory') {
     chapter = 1
     verse = getRandomVerse(75)
 
-  } else if (getWeightedRandomNum(bookSpec)() === 'articles_of_faith') {
+  } else if (book === 'articlesOfFaith') {
     chapter = 1
     verse = getRandomVerse(13)
 
   }
+}
+
+if (book != undefined && chapter != undefined && verse != undefined) {
+  console.log(`${book} ${chapter}:${verse}`)
+} else {
+  console.log('an important value returned undefined. check the code.')
 }
