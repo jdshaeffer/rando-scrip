@@ -134,11 +134,107 @@ if (collection === 'ot') {
 
     chapter = Number(getWeightedRandomNum(chapterSpec)())
 
-    // if (chapter === 1) {
-    //   verse = getRandomVerse(20)
-    // } else if (chapter === 2) {
-    //   verse = getRandomVerse(24)
-    // }
+    if (chapter === 1) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 2) {
+      verse = getRandomVerse(25)
+    } else if (chapter === 3) {
+      verse = getRandomVerse(24)
+    } else if (chapter === 4) {
+      verse = getRandomVerse(26)
+    } else if (chapter === 5) {
+      verse = getRandomVerse(32)
+    } else if (chapter === 6) {
+      verse = getRandomVerse(22)
+    } else if (chapter === 7) {
+      verse = getRandomVerse(24)
+    } else if (chapter === 8) {
+      verse = getRandomVerse(22)
+    } else if (chapter === 9) {
+      verse = getRandomVerse(29)
+    } else if (chapter === 10) {
+      verse = getRandomVerse(32)
+    } else if (chapter === 11) {
+      verse = getRandomVerse(32)
+    } else if (chapter === 12) {
+      verse = getRandomVerse(20)
+    } else if (chapter === 13) {
+      verse = getRandomVerse(18)
+    } else if (chapter === 14) {
+      verse = getRandomVerse(24)
+    } else if (chapter === 15) {
+      verse = getRandomVerse(21)
+    } else if (chapter === 16) {
+      verse = getRandomVerse(16)
+    } else if (chapter === 17) {
+      verse = getRandomVerse(27)
+    } else if (chapter === 18) {
+      verse = getRandomVerse(33)
+    } else if (chapter === 19) {
+      verse = getRandomVerse(38)
+    } else if (chapter === 20) {
+      verse = getRandomVerse(18)
+    } else if (chapter === 21) {
+      verse = getRandomVerse(34)
+    } else if (chapter === 22) {
+      verse = getRandomVerse(24)
+    } else if (chapter === 23) {
+      verse = getRandomVerse(20)
+    } else if (chapter === 24) {
+      verse = getRandomVerse(67)
+    } else if (chapter === 25) {
+      verse = getRandomVerse(34)
+    } else if (chapter === 26) {
+      verse = getRandomVerse(35)
+    } else if (chapter === 27) {
+      verse = getRandomVerse(46)
+    } else if (chapter === 28) {
+      verse = getRandomVerse(22)
+    } else if (chapter === 29) {
+      verse = getRandomVerse(35)
+    } else if (chapter === 30) {
+      verse = getRandomVerse(43)
+    } else if (chapter === 31) {
+      verse = getRandomVerse(55)
+    } else if (chapter === 32) {
+      verse = getRandomVerse(32)
+    } else if (chapter === 33) {
+      verse = getRandomVerse(20)
+    } else if (chapter === 34) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 35) {
+      verse = getRandomVerse(29)
+    } else if (chapter === 36) {
+      verse = getRandomVerse(43)
+    } else if (chapter === 37) {
+      verse = getRandomVerse(36)
+    } else if (chapter === 38) {
+      verse = getRandomVerse(30)
+    } else if (chapter === 39) {
+      verse = getRandomVerse(23)
+    } else if (chapter === 40) {
+      verse = getRandomVerse(23)
+    } else if (chapter === 41) {
+      verse = getRandomVerse(57)
+    } else if (chapter === 42) {
+      verse = getRandomVerse(38)
+    } else if (chapter === 43) {
+      verse = getRandomVerse(34)
+    } else if (chapter === 44) {
+      verse = getRandomVerse(34)
+    } else if (chapter === 45) {
+      verse = getRandomVerse(28)
+    } else if (chapter === 46) {
+      verse = getRandomVerse(34)
+    } else if (chapter === 47) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 48) {
+      verse = getRandomVerse(22)
+    } else if (chapter === 49) {
+      verse = getRandomVerse(33)
+    } else if (chapter === 50) {
+      verse = getRandomVerse(26)
+    }
     
   } else if (book === 'exodus') {
     chapterSpec = {
@@ -184,15 +280,349 @@ if (collection === 'ot') {
       40: parseFloat((38/1213).toFixed(4))
     };
 
+    chapter = Number(getWeightedRandomNum(chapterSpec)())
+
+    if (chapter === 1) {
+      verse = getRandomVerse(22)
+    } else if (chapter === 2) {
+      verse = getRandomVerse(25)
+    } else if (chapter === 3) {
+      verse = getRandomVerse(22)
+    } else if (chapter === 4) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 5) {
+      verse = getRandomVerse(23)
+    } else if (chapter === 6) {
+      verse = getRandomVerse(30)
+    } else if (chapter === 7) {
+      verse = getRandomVerse(25)
+    } else if (chapter === 8) {
+      verse = getRandomVerse(32)
+    } else if (chapter === 9) {
+      verse = getRandomVerse(35)
+    } else if (chapter === 10) {
+      verse = getRandomVerse(29)
+    } else if (chapter === 11) {
+      verse = getRandomVerse(10)
+    } else if (chapter === 12) {
+      verse = getRandomVerse(51)
+    } else if (chapter === 13) {
+      verse = getRandomVerse(22)
+    } else if (chapter === 14) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 15) {
+      verse = getRandomVerse(27)
+    } else if (chapter === 16) {
+      verse = getRandomVerse(36)
+    } else if (chapter === 17) {
+      verse = getRandomVerse(16)
+    } else if (chapter === 18) {
+      verse = getRandomVerse(27)
+    } else if (chapter === 19) {
+      verse = getRandomVerse(25)
+    } else if (chapter === 20) {
+      verse = getRandomVerse(26)
+    } else if (chapter === 21) {
+      verse = getRandomVerse(36)
+    } else if (chapter === 22) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 23) {
+      verse = getRandomVerse(33)
+    } else if (chapter === 24) {
+      verse = getRandomVerse(18)
+    } else if (chapter === 25) {
+      verse = getRandomVerse(40)
+    } else if (chapter === 26) {
+      verse = getRandomVerse(37)
+    } else if (chapter === 27) {
+      verse = getRandomVerse(21)
+    } else if (chapter === 28) {
+      verse = getRandomVerse(43)
+    } else if (chapter === 29) {
+      verse = getRandomVerse(46)
+    } else if (chapter === 30) {
+      verse = getRandomVerse(38)
+    } else if (chapter === 31) {
+      verse = getRandomVerse(18)
+    } else if (chapter === 32) {
+      verse = getRandomVerse(35)
+    } else if (chapter === 33) {
+      verse = getRandomVerse(23)
+    } else if (chapter === 34) {
+      verse = getRandomVerse(35)
+    } else if (chapter === 35) {
+      verse = getRandomVerse(35)
+    } else if (chapter === 36) {
+      verse = getRandomVerse(38)
+    } else if (chapter === 37) {
+      verse = getRandomVerse(29)
+    } else if (chapter === 38) {
+      verse = getRandomVerse(31)
+    } else if (chapter === 39) {
+      verse = getRandomVerse(43)
+    } else if (chapter === 40) {
+      verse = getRandomVerse(38)
+    }
+
   } else if (book === 'leviticus') {
+    chapterSpec = {
+      1: parseFloat((17/859).toFixed(4)),
+      2: parseFloat((16/859).toFixed(4)),
+      3: parseFloat((17/859).toFixed(4)),
+      4: parseFloat((35/859).toFixed(4)),
+      5: parseFloat((19/859).toFixed(4)),
+      6: parseFloat((30/859).toFixed(4)),
+      7: parseFloat((38/859).toFixed(4)),
+      8: parseFloat((36/859).toFixed(4)),
+      9: parseFloat((24/859).toFixed(4)),
+      10: parseFloat((20/859).toFixed(4)),
+      11: parseFloat((47/859).toFixed(4)),
+      12: parseFloat((8/859).toFixed(4)),
+      13: parseFloat((59/859).toFixed(4)),
+      14: parseFloat((57/859).toFixed(4)),
+      15: parseFloat((33/859).toFixed(4)),
+      16: parseFloat((34/859).toFixed(4)),
+      17: parseFloat((16/859).toFixed(4)),
+      18: parseFloat((30/859).toFixed(4)),
+      19: parseFloat((37/859).toFixed(4)),
+      20: parseFloat((27/859).toFixed(4)),
+      21: parseFloat((24/859).toFixed(4)),
+      22: parseFloat((33/859).toFixed(4)),
+      23: parseFloat((44/859).toFixed(4)),
+      24: parseFloat((23/859).toFixed(4)),
+      25: parseFloat((55/859).toFixed(4)),
+      26: parseFloat((46/859).toFixed(4)),
+      27: parseFloat((34/859).toFixed(4))
+    };
+
   } else if (book === 'numbers') {
+    chapterSpec = {
+      1: parseFloat((54/1288).toFixed(4)),
+      2: parseFloat((34/1288).toFixed(4)),
+      3: parseFloat((51/1288).toFixed(4)),
+      4: parseFloat((49/1288).toFixed(4)),
+      5: parseFloat((31/1288).toFixed(4)),
+      6: parseFloat((27/1288).toFixed(4)),
+      7: parseFloat((89/1288).toFixed(4)),
+      8: parseFloat((26/1288).toFixed(4)),
+      9: parseFloat((23/1288).toFixed(4)),
+      10: parseFloat((36/1288).toFixed(4)),
+      11: parseFloat((35/1288).toFixed(4)),
+      12: parseFloat((16/1288).toFixed(4)),
+      13: parseFloat((33/1288).toFixed(4)),
+      14: parseFloat((45/1288).toFixed(4)),
+      15: parseFloat((41/1288).toFixed(4)),
+      16: parseFloat((50/1288).toFixed(4)),
+      17: parseFloat((13/1288).toFixed(4)),
+      18: parseFloat((32/1288).toFixed(4)),
+      19: parseFloat((22/1288).toFixed(4)),
+      20: parseFloat((29/1288).toFixed(4)),
+      21: parseFloat((35/1288).toFixed(4)),
+      22: parseFloat((41/1288).toFixed(4)),
+      23: parseFloat((30/1288).toFixed(4)),
+      24: parseFloat((25/1288).toFixed(4)),
+      25: parseFloat((18/1288).toFixed(4)),
+      26: parseFloat((65/1288).toFixed(4)),
+      27: parseFloat((23/1288).toFixed(4)),
+      28: parseFloat((31/1288).toFixed(4)),
+      29: parseFloat((40/1288).toFixed(4)),
+      30: parseFloat((16/1288).toFixed(4)),
+      31: parseFloat((54/1288).toFixed(4)),
+      32: parseFloat((42/1288).toFixed(4)),
+      33: parseFloat((56/1288).toFixed(4)),
+      34: parseFloat((29/1288).toFixed(4)),
+      35: parseFloat((34/1288).toFixed(4)),
+      36: parseFloat((13/1288).toFixed(4))
+    };
+
   } else if (book === 'deuteronomy') {
+    chapterSpec = {
+      1: parseFloat((46/959).toFixed(4)),
+      2: parseFloat((37/959).toFixed(4)),
+      3: parseFloat((29/959).toFixed(4)),
+      4: parseFloat((49/959).toFixed(4)),
+      5: parseFloat((33/959).toFixed(4)),
+      6: parseFloat((25/959).toFixed(4)),
+      7: parseFloat((26/959).toFixed(4)),
+      8: parseFloat((20/959).toFixed(4)),
+      9: parseFloat((29/959).toFixed(4)),
+      10: parseFloat((22/959).toFixed(4)),
+      11: parseFloat((32/959).toFixed(4)),
+      12: parseFloat((32/959).toFixed(4)),
+      13: parseFloat((18/959).toFixed(4)),
+      14: parseFloat((29/959).toFixed(4)),
+      15: parseFloat((23/959).toFixed(4)),
+      16: parseFloat((22/959).toFixed(4)),
+      17: parseFloat((20/959).toFixed(4)),
+      18: parseFloat((22/959).toFixed(4)),
+      19: parseFloat((21/959).toFixed(4)),
+      20: parseFloat((20/959).toFixed(4)),
+      21: parseFloat((23/959).toFixed(4)),
+      22: parseFloat((30/959).toFixed(4)),
+      23: parseFloat((25/959).toFixed(4)),
+      24: parseFloat((22/959).toFixed(4)),
+      25: parseFloat((19/959).toFixed(4)),
+      26: parseFloat((19/959).toFixed(4)),
+      27: parseFloat((26/959).toFixed(4)),
+      28: parseFloat((68/959).toFixed(4)),
+      29: parseFloat((29/959).toFixed(4)),
+      30: parseFloat((20/959).toFixed(4)),
+      31: parseFloat((30/959).toFixed(4)),
+      32: parseFloat((52/959).toFixed(4)),
+      33: parseFloat((29/959).toFixed(4)),
+      34: parseFloat((12/959).toFixed(4))
+    };
+
   } else if (book === 'joshua') {
+    chapterSpec = {
+      1: parseFloat((18/658).toFixed(4)),
+      2: parseFloat((24/658).toFixed(4)),
+      3: parseFloat((17/658).toFixed(4)),
+      4: parseFloat((24/658).toFixed(4)),
+      5: parseFloat((15/658).toFixed(4)),
+      6: parseFloat((27/658).toFixed(4)),
+      7: parseFloat((26/658).toFixed(4)),
+      8: parseFloat((35/658).toFixed(4)),
+      9: parseFloat((27/658).toFixed(4)),
+      10: parseFloat((43/658).toFixed(4)),
+      11: parseFloat((23/658).toFixed(4)),
+      12: parseFloat((24/658).toFixed(4)),
+      13: parseFloat((33/658).toFixed(4)),
+      14: parseFloat((15/658).toFixed(4)),
+      15: parseFloat((63/658).toFixed(4)),
+      16: parseFloat((10/658).toFixed(4)),
+      17: parseFloat((18/658).toFixed(4)),
+      18: parseFloat((28/658).toFixed(4)),
+      19: parseFloat((51/658).toFixed(4)),
+      20: parseFloat((9/658).toFixed(4)),
+      21: parseFloat((45/658).toFixed(4)),
+      22: parseFloat((34/658).toFixed(4)),
+      23: parseFloat((16/658).toFixed(4)),
+      24: parseFloat((33/658).toFixed(4))
+    };
+
   } else if (book === 'judges') {
+    chapterSpec = {
+      1: parseFloat((36/618).toFixed(4)),
+      2: parseFloat((23/618).toFixed(4)),
+      3: parseFloat((31/618).toFixed(4)),
+      4: parseFloat((24/618).toFixed(4)),
+      5: parseFloat((31/618).toFixed(4)),
+      6: parseFloat((40/618).toFixed(4)),
+      7: parseFloat((25/618).toFixed(4)),
+      8: parseFloat((35/618).toFixed(4)),
+      9: parseFloat((57/618).toFixed(4)),
+      10: parseFloat((18/618).toFixed(4)),
+      11: parseFloat((40/618).toFixed(4)),
+      12: parseFloat((15/618).toFixed(4)),
+      13: parseFloat((25/618).toFixed(4)),
+      14: parseFloat((20/618).toFixed(4)),
+      15: parseFloat((20/618).toFixed(4)),
+      16: parseFloat((31/618).toFixed(4)),
+      17: parseFloat((13/618).toFixed(4)),
+      18: parseFloat((31/618).toFixed(4)),
+      19: parseFloat((30/618).toFixed(4)),
+      20: parseFloat((48/618).toFixed(4)),
+      21: parseFloat((25/618).toFixed(4))
+    };
+
   } else if (book === 'ruth') {
+    chapterSpec = {
+      1: parseFloat((22/85).toFixed(4)),
+      2: parseFloat((23/85).toFixed(4)),
+      3: parseFloat((18/85).toFixed(4)),
+      4: parseFloat((22/85).toFixed(4))
+    };
+
   } else if (book === 'samuel1') {
+    chapterSpec = {
+      1: parseFloat((28/810).toFixed(4)),
+      2: parseFloat((36/810).toFixed(4)),
+      3: parseFloat((21/810).toFixed(4)),
+      4: parseFloat((22/810).toFixed(4)),
+      5: parseFloat((12/810).toFixed(4)),
+      6: parseFloat((21/810).toFixed(4)),
+      7: parseFloat((17/810).toFixed(4)),
+      8: parseFloat((22/810).toFixed(4)),
+      9: parseFloat((27/810).toFixed(4)),
+      10: parseFloat((27/810).toFixed(4)),
+      11: parseFloat((15/810).toFixed(4)),
+      12: parseFloat((25/810).toFixed(4)),
+      13: parseFloat((23/810).toFixed(4)),
+      14: parseFloat((52/810).toFixed(4)),
+      15: parseFloat((35/810).toFixed(4)),
+      16: parseFloat((23/810).toFixed(4)),
+      17: parseFloat((58/810).toFixed(4)),
+      18: parseFloat((30/810).toFixed(4)),
+      19: parseFloat((24/810).toFixed(4)),
+      20: parseFloat((42/810).toFixed(4)),
+      21: parseFloat((15/810).toFixed(4)),
+      22: parseFloat((23/810).toFixed(4)),
+      23: parseFloat((29/810).toFixed(4)),
+      24: parseFloat((22/810).toFixed(4)),
+      25: parseFloat((44/810).toFixed(4)),
+      26: parseFloat((25/810).toFixed(4)),
+      27: parseFloat((12/810).toFixed(4)),
+      28: parseFloat((25/810).toFixed(4)),
+      29: parseFloat((11/810).toFixed(4)),
+      30: parseFloat((31/810).toFixed(4)),
+      31: parseFloat((13/810).toFixed(4))
+    };
+
   } else if (book === 'samuel2') {
+    chapterSpec = {
+      1: parseFloat((27/695).toFixed(4)),
+      2: parseFloat((32/695).toFixed(4)),
+      3: parseFloat((39/695).toFixed(4)),
+      4: parseFloat((12/695).toFixed(4)),
+      5: parseFloat((25/695).toFixed(4)),
+      6: parseFloat((23/695).toFixed(4)),
+      7: parseFloat((29/695).toFixed(4)),
+      8: parseFloat((18/695).toFixed(4)),
+      9: parseFloat((13/695).toFixed(4)),
+      10: parseFloat((19/695).toFixed(4)),
+      11: parseFloat((27/695).toFixed(4)),
+      12: parseFloat((31/695).toFixed(4)),
+      13: parseFloat((39/695).toFixed(4)),
+      14: parseFloat((33/695).toFixed(4)),
+      15: parseFloat((37/695).toFixed(4)),
+      16: parseFloat((23/695).toFixed(4)),
+      17: parseFloat((29/695).toFixed(4)),
+      18: parseFloat((33/695).toFixed(4)),
+      19: parseFloat((43/695).toFixed(4)),
+      20: parseFloat((26/695).toFixed(4)),
+      21: parseFloat((22/695).toFixed(4)),
+      22: parseFloat((51/695).toFixed(4)),
+      23: parseFloat((39/695).toFixed(4)),
+      24: parseFloat((25/695).toFixed(4))
+    };
+
   } else if (book === 'kings1') {
+    chapterSpec = {
+      1: parseFloat((53/816).toFixed(4)),
+      2: parseFloat((32/816).toFixed(4)),
+      3: parseFloat((39/816).toFixed(4)),
+      4: parseFloat((12/816).toFixed(4)),
+      5: parseFloat((25/816).toFixed(4)),
+      6: parseFloat((23/816).toFixed(4)),
+      7: parseFloat((29/816).toFixed(4)),
+      8: parseFloat((18/816).toFixed(4)),
+      9: parseFloat((13/816).toFixed(4)),
+      10: parseFloat((19/816).toFixed(4)),
+      11: parseFloat((27/816).toFixed(4)),
+      12: parseFloat((31/816).toFixed(4)),
+      13: parseFloat((39/816).toFixed(4)),
+      14: parseFloat((33/816).toFixed(4)),
+      15: parseFloat((37/816).toFixed(4)),
+      16: parseFloat((23/816).toFixed(4)),
+      17: parseFloat((29/816).toFixed(4)),
+      18: parseFloat((33/816).toFixed(4)),
+      19: parseFloat((43/816).toFixed(4)),
+      20: parseFloat((26/816).toFixed(4)),
+      21: parseFloat((22/816).toFixed(4)),
+      22: parseFloat((51/816).toFixed(4))
+    };
+    
   } else if (book === 'kings2') {
   } else if (book === 'chronicles1') {
   } else if (book === 'chronicles2') {
