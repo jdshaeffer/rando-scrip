@@ -1046,79 +1046,308 @@ if (collection === 'ot') {
       9: parseFloat((21/1292).toFixed(4)),
       10: parseFloat((34/1292).toFixed(4)),
       11: parseFloat((16/1292).toFixed(4)),
-      12: parseFloat((81/1292).toFixed(4)),
-      13: parseFloat((61/1292).toFixed(4)),
-      14: parseFloat((71/1292).toFixed(4)),
-      15: parseFloat((51/1292).toFixed(4)),
-      16: parseFloat((11/1292).toFixed(4)),
-      17: parseFloat((15/1292).toFixed(4)),
-      18: parseFloat((50/1292).toFixed(4)),
-      19: parseFloat((14/1292).toFixed(4)),
-      20: parseFloat((91/1292).toFixed(4)),
-      21: parseFloat((13/1292).toFixed(4)),
-      22: parseFloat((31/1292).toFixed(4)),
-      23: parseFloat((61/1292).toFixed(4)),
-      24: parseFloat((10/1292).toFixed(4)),
-      25: parseFloat((22/1292).toFixed(4)),
-      26: parseFloat((12/1292).toFixed(4)),
-      27: parseFloat((14/1292).toFixed(4)),
-      28: parseFloat((91/1292).toFixed(4)),
-      29: parseFloat((11/1292).toFixed(4)),
-      30: parseFloat((12/1292).toFixed(4)),
-      31: parseFloat((24/1292).toFixed(4)),
-      32: parseFloat((11/1292).toFixed(4)),
-      33: parseFloat((22/1292).toFixed(4)),
-      34: parseFloat((22/1292).toFixed(4)),
-      35: parseFloat((28/1292).toFixed(4)),
-      36: parseFloat((12/1292).toFixed(4)),
-      37: parseFloat((40/1292).toFixed(4)),
+      12: parseFloat((6/1292).toFixed(4)),
+      13: parseFloat((22/1292).toFixed(4)),
+      14: parseFloat((32/1292).toFixed(4)),
+      15: parseFloat((9/1292).toFixed(4)),
+      16: parseFloat((14/1292).toFixed(4)),
+      17: parseFloat((14/1292).toFixed(4)),
+      18: parseFloat((7/1292).toFixed(4)),
+      19: parseFloat((25/1292).toFixed(4)),
+      20: parseFloat((6/1292).toFixed(4)),
+      21: parseFloat((17/1292).toFixed(4)),
+      22: parseFloat((25/1292).toFixed(4)),
+      23: parseFloat((18/1292).toFixed(4)),
+      24: parseFloat((23/1292).toFixed(4)),
+      25: parseFloat((12/1292).toFixed(4)),
+      26: parseFloat((21/1292).toFixed(4)),
+      27: parseFloat((13/1292).toFixed(4)),
+      28: parseFloat((29/1292).toFixed(4)),
+      29: parseFloat((24/1292).toFixed(4)),
+      30: parseFloat((33/1292).toFixed(4)),
+      31: parseFloat((9/1292).toFixed(4)),
+      32: parseFloat((20/1292).toFixed(4)),
+      33: parseFloat((24/1292).toFixed(4)),
+      34: parseFloat((17/1292).toFixed(4)),
+      35: parseFloat((10/1292).toFixed(4)),
+      36: parseFloat((22/1292).toFixed(4)),
+      37: parseFloat((38/1292).toFixed(4)),
       38: parseFloat((22/1292).toFixed(4)),
-      39: parseFloat((13/1292).toFixed(4)),
-      40: parseFloat((17/1292).toFixed(4)),
-      41: parseFloat((13/1292).toFixed(4)),
-      42: parseFloat((11/1292).toFixed(4)),
-      43: parseFloat((50/1292).toFixed(4)),
-      44: parseFloat((26/1292).toFixed(4)),
-      45: parseFloat((17/1292).toFixed(4)),
-      46: parseFloat((11/1292).toFixed(4)),
-      47: parseFloat((90/1292).toFixed(4)),
-      48: parseFloat((14/1292).toFixed(4)),
-      49: parseFloat((20/1292).toFixed(4)),
-      50: parseFloat((23/1292).toFixed(4)),
-      51: parseFloat((19/1292).toFixed(4)),
-      52: parseFloat((90/1292).toFixed(4)),
-      53: parseFloat((60/1292).toFixed(4)),
-      54: parseFloat((70/1292).toFixed(4)),
-      55: parseFloat((23/1292).toFixed(4)),
-      56: parseFloat((13/1292).toFixed(4)),
-      57: parseFloat((11/1292).toFixed(4)),
-      58: parseFloat((11/1292).toFixed(4)),
-      59: parseFloat((17/1292).toFixed(4)),
-      60: parseFloat((12/1292).toFixed(4)),
-      61: parseFloat((80/1292).toFixed(4)),
+      39: parseFloat((8/1292).toFixed(4)),
+      40: parseFloat((31/1292).toFixed(4)),
+      41: parseFloat((29/1292).toFixed(4)),
+      42: parseFloat((25/1292).toFixed(4)),
+      43: parseFloat((28/1292).toFixed(4)),
+      44: parseFloat((28/1292).toFixed(4)),
+      45: parseFloat((25/1292).toFixed(4)),
+      46: parseFloat((13/1292).toFixed(4)),
+      47: parseFloat((15/1292).toFixed(4)),
+      48: parseFloat((22/1292).toFixed(4)),
+      49: parseFloat((26/1292).toFixed(4)),
+      50: parseFloat((11/1292).toFixed(4)),
+      51: parseFloat((23/1292).toFixed(4)),
+      52: parseFloat((15/1292).toFixed(4)),
+      53: parseFloat((12/1292).toFixed(4)),
+      54: parseFloat((17/1292).toFixed(4)),
+      55: parseFloat((13/1292).toFixed(4)),
+      56: parseFloat((12/1292).toFixed(4)),
+      57: parseFloat((21/1292).toFixed(4)),
+      58: parseFloat((14/1292).toFixed(4)),
+      59: parseFloat((21/1292).toFixed(4)),
+      60: parseFloat((22/1292).toFixed(4)),
+      61: parseFloat((11/1292).toFixed(4)),
       62: parseFloat((12/1292).toFixed(4)),
-      63: parseFloat((11/1292).toFixed(4)),
-      64: parseFloat((10/1292).toFixed(4)),
-      65: parseFloat((13/1292).toFixed(4)),
-      66: parseFloat((20/1292).toFixed(4))
+      63: parseFloat((19/1292).toFixed(4)),
+      64: parseFloat((12/1292).toFixed(4)),
+      65: parseFloat((25/1292).toFixed(4)),
+      66: parseFloat((24/1292).toFixed(4))
     };
 
   } else if (book === 'jeremiah') {
+    chapterSpec = {
+      1: parseFloat((19/1364).toFixed(4)),
+      2: parseFloat((37/1364).toFixed(4)),
+      3: parseFloat((25/1364).toFixed(4)),
+      4: parseFloat((31/1364).toFixed(4)),
+      5: parseFloat((31/1364).toFixed(4)),
+      6: parseFloat((30/1364).toFixed(4)),
+      7: parseFloat((34/1364).toFixed(4)),
+      8: parseFloat((22/1364).toFixed(4)),
+      9: parseFloat((26/1364).toFixed(4)),
+      10: parseFloat((25/1364).toFixed(4)),
+      11: parseFloat((23/1364).toFixed(4)),
+      12: parseFloat((17/1364).toFixed(4)),
+      13: parseFloat((27/1364).toFixed(4)),
+      14: parseFloat((22/1364).toFixed(4)),
+      15: parseFloat((21/1364).toFixed(4)),
+      16: parseFloat((21/1364).toFixed(4)),
+      17: parseFloat((27/1364).toFixed(4)),
+      18: parseFloat((23/1364).toFixed(4)),
+      19: parseFloat((15/1364).toFixed(4)),
+      20: parseFloat((18/1364).toFixed(4)),
+      21: parseFloat((14/1364).toFixed(4)),
+      22: parseFloat((30/1364).toFixed(4)),
+      23: parseFloat((40/1364).toFixed(4)),
+      24: parseFloat((10/1364).toFixed(4)),
+      25: parseFloat((38/1364).toFixed(4)),
+      26: parseFloat((24/1364).toFixed(4)),
+      27: parseFloat((22/1364).toFixed(4)),
+      28: parseFloat((17/1364).toFixed(4)),
+      29: parseFloat((32/1364).toFixed(4)),
+      30: parseFloat((24/1364).toFixed(4)),
+      31: parseFloat((40/1364).toFixed(4)),
+      32: parseFloat((44/1364).toFixed(4)),
+      33: parseFloat((26/1364).toFixed(4)),
+      34: parseFloat((22/1364).toFixed(4)),
+      35: parseFloat((19/1364).toFixed(4)),
+      36: parseFloat((32/1364).toFixed(4)),
+      37: parseFloat((21/1364).toFixed(4)),
+      38: parseFloat((28/1364).toFixed(4)),
+      39: parseFloat((18/1364).toFixed(4)),
+      40: parseFloat((16/1364).toFixed(4)),
+      41: parseFloat((18/1364).toFixed(4)),
+      42: parseFloat((22/1364).toFixed(4)),
+      43: parseFloat((13/1364).toFixed(4)),
+      44: parseFloat((30/1364).toFixed(4)),
+      45: parseFloat((5/1364).toFixed(4)),
+      46: parseFloat((28/1364).toFixed(4)),
+      47: parseFloat((7/1364).toFixed(4)),
+      48: parseFloat((47/1364).toFixed(4)),
+      49: parseFloat((39/1364).toFixed(4)),
+      50: parseFloat((46/1364).toFixed(4)),
+      51: parseFloat((64/1364).toFixed(4)),
+      52: parseFloat((34/1364).toFixed(4))
+    };
+
   } else if (book === 'lamentations') {
+    chapterSpec = {
+      1: parseFloat((22/154).toFixed(4)),
+      2: parseFloat((22/154).toFixed(4)),
+      3: parseFloat((66/154).toFixed(4)),
+      4: parseFloat((22/154).toFixed(4)),
+      5: parseFloat((22/154).toFixed(4))
+    };
+
   } else if (book === 'ezekiel') {
+    chapterSpec = {
+      1: parseFloat((28/1273).toFixed(4)),
+      2: parseFloat((10/1273).toFixed(4)),
+      3: parseFloat((27/1273).toFixed(4)),
+      4: parseFloat((17/1273).toFixed(4)),
+      5: parseFloat((17/1273).toFixed(4)),
+      6: parseFloat((14/1273).toFixed(4)),
+      7: parseFloat((27/1273).toFixed(4)),
+      8: parseFloat((18/1273).toFixed(4)),
+      9: parseFloat((11/1273).toFixed(4)),
+      10: parseFloat((22/1273).toFixed(4)),
+      11: parseFloat((25/1273).toFixed(4)),
+      12: parseFloat((28/1273).toFixed(4)),
+      13: parseFloat((23/1273).toFixed(4)),
+      14: parseFloat((23/1273).toFixed(4)),
+      15: parseFloat((8/1273).toFixed(4)),
+      16: parseFloat((63/1273).toFixed(4)),
+      17: parseFloat((24/1273).toFixed(4)),
+      18: parseFloat((32/1273).toFixed(4)),
+      19: parseFloat((14/1273).toFixed(4)),
+      20: parseFloat((49/1273).toFixed(4)),
+      21: parseFloat((32/1273).toFixed(4)),
+      22: parseFloat((31/1273).toFixed(4)),
+      23: parseFloat((49/1273).toFixed(4)),
+      24: parseFloat((27/1273).toFixed(4)),
+      25: parseFloat((17/1273).toFixed(4)),
+      26: parseFloat((21/1273).toFixed(4)),
+      27: parseFloat((36/1273).toFixed(4)),
+      28: parseFloat((26/1273).toFixed(4)),
+      29: parseFloat((21/1273).toFixed(4)),
+      30: parseFloat((26/1273).toFixed(4)),
+      31: parseFloat((18/1273).toFixed(4)),
+      32: parseFloat((32/1273).toFixed(4)),
+      33: parseFloat((33/1273).toFixed(4)),
+      34: parseFloat((31/1273).toFixed(4)),
+      35: parseFloat((15/1273).toFixed(4)),
+      36: parseFloat((38/1273).toFixed(4)),
+      37: parseFloat((28/1273).toFixed(4)),
+      38: parseFloat((23/1273).toFixed(4)),
+      39: parseFloat((29/1273).toFixed(4)),
+      40: parseFloat((49/1273).toFixed(4)),
+      41: parseFloat((26/1273).toFixed(4)),
+      42: parseFloat((20/1273).toFixed(4)),
+      43: parseFloat((27/1273).toFixed(4)),
+      44: parseFloat((31/1273).toFixed(4)),
+      45: parseFloat((25/1273).toFixed(4)),
+      46: parseFloat((24/1273).toFixed(4)),
+      47: parseFloat((23/1273).toFixed(4)),
+      48: parseFloat((35/1273).toFixed(4))
+    };
+
   } else if (book === 'daniel') {
+    chapterSpec = {
+      1: parseFloat((21/357).toFixed(4)),
+      2: parseFloat((49/357).toFixed(4)),
+      3: parseFloat((30/357).toFixed(4)),
+      4: parseFloat((37/357).toFixed(4)),
+      5: parseFloat((31/357).toFixed(4)),
+      6: parseFloat((28/357).toFixed(4)),
+      7: parseFloat((28/357).toFixed(4)),
+      8: parseFloat((27/357).toFixed(4)),
+      9: parseFloat((27/357).toFixed(4)),
+      10: parseFloat((21/357).toFixed(4)),
+      11: parseFloat((45/357).toFixed(4)),
+      12: parseFloat((13/357).toFixed(4))
+    };
+    
   } else if (book === 'hosea') {
+    chapterSpec = {
+      1: parseFloat((11/197).toFixed(4)),
+      2: parseFloat((23/197).toFixed(4)),
+      3: parseFloat((5/197).toFixed(4)),
+      4: parseFloat((19/197).toFixed(4)),
+      5: parseFloat((15/197).toFixed(4)),
+      6: parseFloat((11/197).toFixed(4)),
+      7: parseFloat((16/197).toFixed(4)),
+      8: parseFloat((14/197).toFixed(4)),
+      9: parseFloat((17/197).toFixed(4)),
+      10: parseFloat((15/197).toFixed(4)),
+      11: parseFloat((12/197).toFixed(4)),
+      12: parseFloat((14/197).toFixed(4)),
+      13: parseFloat((16/197).toFixed(4)),
+      14: parseFloat((9/197).toFixed(4))
+    };
+
   } else if (book === 'joel') {
+    chapterSpec = {
+      1: parseFloat((20/73).toFixed(4)),
+      2: parseFloat((32/73).toFixed(4)),
+      3: parseFloat((21/73).toFixed(4))
+    };
+
   } else if (book === 'amos') {
+    chapterSpec = {
+      1: parseFloat((15/146).toFixed(4)),
+      2: parseFloat((16/146).toFixed(4)),
+      3: parseFloat((15/146).toFixed(4)),
+      4: parseFloat((13/146).toFixed(4)),
+      5: parseFloat((27/146).toFixed(4)),
+      6: parseFloat((14/146).toFixed(4)),
+      7: parseFloat((17/146).toFixed(4)),
+      8: parseFloat((14/146).toFixed(4)),
+      9: parseFloat((15/146).toFixed(4))
+    };
+
   } else if (book === 'obadiah') {
+    chapter = 1;
+    verse = getRandomVerse(21);
+
   } else if (book === 'jonah') {
+    chapterSpec = {
+      1: parseFloat((17/48).toFixed(4)),
+      2: parseFloat((10/48).toFixed(4)),
+      3: parseFloat((10/48).toFixed(4)),
+      4: parseFloat((11/48).toFixed(4))
+    };
+
   } else if (book === 'micah') {
+    chapterSpec = {
+      1: parseFloat((16/105).toFixed(4)),
+      2: parseFloat((13/105).toFixed(4)),
+      3: parseFloat((12/105).toFixed(4)),
+      4: parseFloat((13/105).toFixed(4)),
+      5: parseFloat((15/105).toFixed(4)),
+      6: parseFloat((16/105).toFixed(4)),
+      7: parseFloat((20/105).toFixed(4))
+    };
+
   } else if (book === 'nahum') {
+    chapterSpec = {
+      1: parseFloat((15/47).toFixed(4)),
+      2: parseFloat((13/47).toFixed(4)),
+      3: parseFloat((19/47).toFixed(4))
+    };
+    
   } else if (book === 'habakkuk') {
+    chapterSpec = {
+      1: parseFloat((17/56).toFixed(4)),
+      2: parseFloat((20/56).toFixed(4)),
+      3: parseFloat((19/56).toFixed(4))
+    };
+    
   } else if (book === 'zephaniah') {
+    chapterSpec = {
+      1: parseFloat((18/53).toFixed(4)),
+      2: parseFloat((15/53).toFixed(4)),
+      3: parseFloat((20/53).toFixed(4))
+    };
+
   } else if (book === 'haggai') {
+    chapterSpec = {
+      1: parseFloat((15/38).toFixed(4)),
+      2: parseFloat((23/38).toFixed(4))
+    };
+
   } else if (book === 'zechariah') {
+    chapterSpec = {
+      1: parseFloat((21/211).toFixed(4)),
+      2: parseFloat((13/211).toFixed(4)),
+      3: parseFloat((10/211).toFixed(4)),
+      4: parseFloat((14/211).toFixed(4)),
+      5: parseFloat((11/211).toFixed(4)),
+      6: parseFloat((15/211).toFixed(4)),
+      7: parseFloat((14/211).toFixed(4)),
+      8: parseFloat((23/211).toFixed(4)),
+      9: parseFloat((17/211).toFixed(4)),
+      10: parseFloat((12/211).toFixed(4)),
+      11: parseFloat((17/211).toFixed(4)),
+      12: parseFloat((14/211).toFixed(4)),
+      13: parseFloat((9/211).toFixed(4)),
+      14: parseFloat((21/211).toFixed(4))
+    };
+
   } else if (book === 'malachi') {
+    chapterSpec = {
+      1: parseFloat((14/55).toFixed(4)),
+      2: parseFloat((17/55).toFixed(4)),
+      3: parseFloat((18/55).toFixed(4)),
+      4: parseFloat((6/55).toFixed(4))
   }
 
 } else if (collection === 'nt') {
@@ -1155,32 +1384,369 @@ if (collection === 'ot') {
   book = getWeightedRandomNum(bookSpeck)()
 
   if (book === 'matthew') {
+    chapterSpec = {
+      1: parseFloat((25/1071).toFixed(4)),
+      2: parseFloat((23/1071).toFixed(4)),
+      3: parseFloat((17/1071).toFixed(4)),
+      4: parseFloat((25/1071).toFixed(4)),
+      5: parseFloat((48/1071).toFixed(4)),
+      6: parseFloat((34/1071).toFixed(4)),
+      7: parseFloat((29/1071).toFixed(4)),
+      8: parseFloat((34/1071).toFixed(4)),
+      9: parseFloat((38/1071).toFixed(4)),
+      10: parseFloat((42/1071).toFixed(4)),
+      11: parseFloat((30/1071).toFixed(4)),
+      12: parseFloat((50/1071).toFixed(4)),
+      13: parseFloat((58/1071).toFixed(4)),
+      14: parseFloat((36/1071).toFixed(4)),
+      15: parseFloat((39/1071).toFixed(4)),
+      16: parseFloat((28/1071).toFixed(4)),
+      17: parseFloat((27/1071).toFixed(4)),
+      18: parseFloat((35/1071).toFixed(4)),
+      19: parseFloat((30/1071).toFixed(4)),
+      20: parseFloat((34/1071).toFixed(4)),
+      21: parseFloat((46/1071).toFixed(4)),
+      22: parseFloat((46/1071).toFixed(4)),
+      23: parseFloat((39/1071).toFixed(4)),
+      24: parseFloat((51/1071).toFixed(4)),
+      25: parseFloat((46/1071).toFixed(4)),
+      26: parseFloat((75/1071).toFixed(4)),
+      27: parseFloat((66/1071).toFixed(4)),
+      28: parseFloat((20/1071).toFixed(4))
+    };
+
   } else if (book === 'mark') {
+    chapterSpec = {
+      1: parseFloat((45/678).toFixed(4)),
+      2: parseFloat((28/678).toFixed(4)),
+      3: parseFloat((35/678).toFixed(4)),
+      4: parseFloat((41/678).toFixed(4)),
+      5: parseFloat((43/678).toFixed(4)),
+      6: parseFloat((56/678).toFixed(4)),
+      7: parseFloat((37/678).toFixed(4)),
+      8: parseFloat((38/678).toFixed(4)),
+      9: parseFloat((50/678).toFixed(4)),
+      10: parseFloat((52/678).toFixed(4)),
+      11: parseFloat((33/678).toFixed(4)),
+      12: parseFloat((44/678).toFixed(4)),
+      13: parseFloat((37/678).toFixed(4)),
+      14: parseFloat((72/678).toFixed(4)),
+      15: parseFloat((47/678).toFixed(4)),
+      16: parseFloat((20/678).toFixed(4))
+    };
+
   } else if (book === 'luke') {
+    chapterSpec = {
+      1: parseFloat((80/1151).toFixed(4)),
+      2: parseFloat((52/1151).toFixed(4)),
+      3: parseFloat((38/1151).toFixed(4)),
+      4: parseFloat((44/1151).toFixed(4)),
+      5: parseFloat((39/1151).toFixed(4)),
+      6: parseFloat((49/1151).toFixed(4)),
+      7: parseFloat((50/1151).toFixed(4)),
+      8: parseFloat((56/1151).toFixed(4)),
+      9: parseFloat((62/1151).toFixed(4)),
+      10: parseFloat((42/1151).toFixed(4)),
+      11: parseFloat((54/1151).toFixed(4)),
+      12: parseFloat((59/1151).toFixed(4)),
+      13: parseFloat((35/1151).toFixed(4)),
+      14: parseFloat((35/1151).toFixed(4)),
+      15: parseFloat((32/1151).toFixed(4)),
+      16: parseFloat((31/1151).toFixed(4)),
+      17: parseFloat((37/1151).toFixed(4)),
+      18: parseFloat((43/1151).toFixed(4)),
+      19: parseFloat((48/1151).toFixed(4)),
+      20: parseFloat((47/1151).toFixed(4)),
+      21: parseFloat((38/1151).toFixed(4)),
+      22: parseFloat((71/1151).toFixed(4)),
+      23: parseFloat((56/1151).toFixed(4)),
+      24: parseFloat((53/1151).toFixed(4))
+    };
+
   } else if (book === 'john') {
+    chapterSpec = {
+      1: parseFloat((51/879).toFixed(4)),
+      2: parseFloat((25/879).toFixed(4)),
+      3: parseFloat((36/879).toFixed(4)),
+      4: parseFloat((54/879).toFixed(4)),
+      5: parseFloat((47/879).toFixed(4)),
+      6: parseFloat((71/879).toFixed(4)),
+      7: parseFloat((53/879).toFixed(4)),
+      8: parseFloat((59/879).toFixed(4)),
+      9: parseFloat((41/879).toFixed(4)),
+      10: parseFloat((42/879).toFixed(4)),
+      11: parseFloat((57/879).toFixed(4)),
+      12: parseFloat((50/879).toFixed(4)),
+      13: parseFloat((38/879).toFixed(4)),
+      14: parseFloat((31/879).toFixed(4)),
+      15: parseFloat((27/879).toFixed(4)),
+      16: parseFloat((33/879).toFixed(4)),
+      17: parseFloat((26/879).toFixed(4)),
+      18: parseFloat((40/879).toFixed(4)),
+      19: parseFloat((42/879).toFixed(4)),
+      20: parseFloat((31/879).toFixed(4)),
+      21: parseFloat((25/879).toFixed(4))
+    };
+
   } else if (book === 'acts') {
+    chapterSpec = {
+      1: parseFloat((26/1007).toFixed(4)),
+      2: parseFloat((47/1007).toFixed(4)),
+      3: parseFloat((26/1007).toFixed(4)),
+      4: parseFloat((37/1007).toFixed(4)),
+      5: parseFloat((42/1007).toFixed(4)),
+      6: parseFloat((15/1007).toFixed(4)),
+      7: parseFloat((60/1007).toFixed(4)),
+      8: parseFloat((40/1007).toFixed(4)),
+      9: parseFloat((43/1007).toFixed(4)),
+      10: parseFloat((48/1007).toFixed(4)),
+      11: parseFloat((30/1007).toFixed(4)),
+      12: parseFloat((25/1007).toFixed(4)),
+      13: parseFloat((52/1007).toFixed(4)),
+      14: parseFloat((28/1007).toFixed(4)),
+      15: parseFloat((41/1007).toFixed(4)),
+      16: parseFloat((40/1007).toFixed(4)),
+      17: parseFloat((34/1007).toFixed(4)),
+      18: parseFloat((28/1007).toFixed(4)),
+      19: parseFloat((41/1007).toFixed(4)),
+      20: parseFloat((38/1007).toFixed(4)),
+      21: parseFloat((40/1007).toFixed(4)),
+      22: parseFloat((30/1007).toFixed(4)),
+      23: parseFloat((35/1007).toFixed(4)),
+      24: parseFloat((27/1007).toFixed(4)),
+      25: parseFloat((27/1007).toFixed(4)),
+      26: parseFloat((32/1007).toFixed(4)),
+      27: parseFloat((44/1007).toFixed(4)),
+      28: parseFloat((31/1007).toFixed(4))
+    };
+
   } else if (book === 'romans') {
+    chapterSpec = {
+      1: parseFloat((32/434).toFixed(4)),
+      2: parseFloat((29/434).toFixed(4)),
+      3: parseFloat((31/434).toFixed(4)),
+      4: parseFloat((25/434).toFixed(4)),
+      5: parseFloat((21/434).toFixed(4)),
+      6: parseFloat((23/434).toFixed(4)),
+      7: parseFloat((25/434).toFixed(4)),
+      8: parseFloat((39/434).toFixed(4)),
+      9: parseFloat((33/434).toFixed(4)),
+      10: parseFloat((21/434).toFixed(4)),
+      11: parseFloat((36/434).toFixed(4)),
+      12: parseFloat((21/434).toFixed(4)),
+      13: parseFloat((14/434).toFixed(4)),
+      14: parseFloat((26/434).toFixed(4)),
+      15: parseFloat((33/434).toFixed(4)),
+      16: parseFloat((25/434).toFixed(4))
+    };
+
   } else if (book === 'corinthians1') {
+    chapterSpec = {
+      1: parseFloat((31/437).toFixed(4)),
+      2: parseFloat((16/437).toFixed(4)),
+      3: parseFloat((23/437).toFixed(4)),
+      4: parseFloat((21/437).toFixed(4)),
+      5: parseFloat((13/437).toFixed(4)),
+      6: parseFloat((20/437).toFixed(4)),
+      7: parseFloat((40/437).toFixed(4)),
+      8: parseFloat((13/437).toFixed(4)),
+      9: parseFloat((27/437).toFixed(4)),
+      10: parseFloat((33/437).toFixed(4)),
+      11: parseFloat((34/437).toFixed(4)),
+      12: parseFloat((31/437).toFixed(4)),
+      13: parseFloat((13/437).toFixed(4)),
+      14: parseFloat((40/437).toFixed(4)),
+      15: parseFloat((58/437).toFixed(4)),
+      16: parseFloat((24/437).toFixed(4))
+    };
+
   } else if (book === 'corinthians2') {
+    chapterSpec = {
+      1: parseFloat((24/257).toFixed(4)),
+      2: parseFloat((17/257).toFixed(4)),
+      3: parseFloat((18/257).toFixed(4)),
+      4: parseFloat((18/257).toFixed(4)),
+      5: parseFloat((21/257).toFixed(4)),
+      6: parseFloat((18/257).toFixed(4)),
+      7: parseFloat((16/257).toFixed(4)),
+      8: parseFloat((24/257).toFixed(4)),
+      9: parseFloat((15/257).toFixed(4)),
+      10: parseFloat((18/257).toFixed(4)),
+      11: parseFloat((33/257).toFixed(4)),
+      12: parseFloat((21/257).toFixed(4)),
+      13: parseFloat((14/257).toFixed(4))
+    };
+
   } else if (book === 'galatians') {
+    chapterSpec = {
+      1: parseFloat((24/149).toFixed(4)),
+      2: parseFloat((21/149).toFixed(4)),
+      3: parseFloat((29/149).toFixed(4)),
+      4: parseFloat((31/149).toFixed(4)),
+      5: parseFloat((26/149).toFixed(4)),
+      6: parseFloat((18/149).toFixed(4))
+    };
+
   } else if (book === 'ephesians') {
+    chapterSpec = {
+      1: parseFloat((23/155).toFixed(4)),
+      2: parseFloat((22/155).toFixed(4)),
+      3: parseFloat((21/155).toFixed(4)),
+      4: parseFloat((32/155).toFixed(4)),
+      5: parseFloat((33/155).toFixed(4)),
+      6: parseFloat((24/155).toFixed(4))
+    };
+
   } else if (book === 'philippians') {
+    chapterSpec = {
+      1: parseFloat((30/104).toFixed(4)),
+      2: parseFloat((30/104).toFixed(4)),
+      3: parseFloat((21/104).toFixed(4)),
+      4: parseFloat((23/104).toFixed(4))
+    };
+
   } else if (book === 'colossians') {
+    chapterSpec = {
+      1: parseFloat((29/95).toFixed(4)),
+      2: parseFloat((23/95).toFixed(4)),
+      3: parseFloat((25/95).toFixed(4)),
+      4: parseFloat((18/95).toFixed(4))
+    };
+
   } else if (book === 'thessalonians1') {
+    chapterSpec = {
+      1: parseFloat((10/89).toFixed(4)),
+      2: parseFloat((20/89).toFixed(4)),
+      3: parseFloat((13/89).toFixed(4)),
+      4: parseFloat((18/89).toFixed(4)),
+      5: parseFloat((28/89).toFixed(4))
+    };
+
   } else if (book === 'thessalonians2') {
+    chapterSpec = {
+      1: parseFloat((12/47).toFixed(4)),
+      2: parseFloat((17/47).toFixed(4)),
+      3: parseFloat((18/47).toFixed(4))
+    };
+
   } else if (book === 'timothy1') {
+    chapterSpec = {
+      1: parseFloat((20/113).toFixed(4)),
+      2: parseFloat((15/113).toFixed(4)),
+      3: parseFloat((16/113).toFixed(4)),
+      4: parseFloat((16/113).toFixed(4)),
+      5: parseFloat((25/113).toFixed(4)),
+      6: parseFloat((21/113).toFixed(4))
+    };
+
   } else if (book === 'timothy2') {
+    chapterSpec = {
+      1: parseFloat((18/83).toFixed(4)),
+      2: parseFloat((26/83).toFixed(4)),
+      3: parseFloat((17/83).toFixed(4)),
+      4: parseFloat((22/83).toFixed(4))
+    };
+
   } else if (book === 'titus') {
+    chapterSpec = {
+      1: parseFloat((16/46).toFixed(4)),
+      2: parseFloat((15/46).toFixed(4)),
+      3: parseFloat((15/46).toFixed(4))
+    };
+
   } else if (book === 'philemon') {
+    chapter = 1;
+    verse = getRandomVerse(25);
+
   } else if (book === 'hebrews') {
+    chapterSpec = {
+      1: parseFloat((14/303).toFixed(4)),
+      2: parseFloat((18/303).toFixed(4)),
+      3: parseFloat((19/303).toFixed(4)),
+      4: parseFloat((16/303).toFixed(4)),
+      5: parseFloat((14/303).toFixed(4)),
+      6: parseFloat((20/303).toFixed(4)),
+      7: parseFloat((28/303).toFixed(4)),
+      8: parseFloat((13/303).toFixed(4)),
+      9: parseFloat((28/303).toFixed(4)),
+      10: parseFloat((39/303).toFixed(4)),
+      11: parseFloat((40/303).toFixed(4)),
+      12: parseFloat((29/303).toFixed(4)),
+      13: parseFloat((25/303).toFixed(4))
+    };
+
   } else if (book === 'james') {
+    chapterSpec = {
+      1: parseFloat((27/108).toFixed(4)),
+      2: parseFloat((26/108).toFixed(4)),
+      3: parseFloat((18/108).toFixed(4)),
+      4: parseFloat((17/108).toFixed(4)),
+      5: parseFloat((20/108).toFixed(4))
+    };
+
   } else if (book === 'peter1') {
+    chapterSpec = {
+      1: parseFloat((25/105).toFixed(4)),
+      2: parseFloat((25/105).toFixed(4)),
+      3: parseFloat((22/105).toFixed(4)),
+      4: parseFloat((19/105).toFixed(4)),
+      5: parseFloat((14/105).toFixed(4))
+    };
+
   } else if (book === 'peter2') {
+    chapterSpec = {
+      1: parseFloat((21/61).toFixed(4)),
+      2: parseFloat((22/61).toFixed(4)),
+      3: parseFloat((18/61).toFixed(4))
+    };
+
   } else if (book === 'john1') {
+    chapterSpec = {
+      1: parseFloat((10/105).toFixed(4)),
+      2: parseFloat((29/105).toFixed(4)),
+      3: parseFloat((24/105).toFixed(4)),
+      4: parseFloat((21/105).toFixed(4)),
+      5: parseFloat((21/105).toFixed(4))
+    };
+
   } else if (book === 'john2') {
+    chapter = 1;
+    verse = getRandomVerse(13);
+
   } else if (book === 'john3') {
+    chapter = 1;
+    verse = getRandomVerse(14);
+
   } else if (book === 'jude') {
+    chapter = 1;
+    verse = getRandomVerse(25);
+
   } else if (book === 'revelation') {
+    chapterSpec = {
+      1: parseFloat((20/404).toFixed(4)),
+      2: parseFloat((29/404).toFixed(4)),
+      3: parseFloat((22/404).toFixed(4)),
+      4: parseFloat((11/404).toFixed(4)),
+      5: parseFloat((14/404).toFixed(4)),
+      6: parseFloat((17/404).toFixed(4)),
+      7: parseFloat((17/404).toFixed(4)),
+      8: parseFloat((13/404).toFixed(4)),
+      9: parseFloat((21/404).toFixed(4)),
+      10: parseFloat((11/404).toFixed(4)),
+      11: parseFloat((19/404).toFixed(4)),
+      12: parseFloat((17/404).toFixed(4)),
+      13: parseFloat((18/404).toFixed(4)),
+      14: parseFloat((20/404).toFixed(4)),
+      15: parseFloat((8/404).toFixed(4)),
+      16: parseFloat((21/404).toFixed(4)),
+      17: parseFloat((18/404).toFixed(4)),
+      18: parseFloat((24/404).toFixed(4)),
+      19: parseFloat((21/404).toFixed(4)),
+      20: parseFloat((15/404).toFixed(4)),
+      21: parseFloat((27/404).toFixed(4)),
+      22: parseFloat((21/404).toFixed(4))
+    };
+
   }
 
 } else if (collection === 'bom') {
