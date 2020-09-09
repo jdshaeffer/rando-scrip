@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useState } from 'react';
-import getScrip from '../../getScrip';
+import getScrip from '../getScrip';
 
 const Home = () => {
   const [scrip, setScrip] = useState('');
