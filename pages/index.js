@@ -14,7 +14,7 @@ const Home = () => {
         <small>written by j.d. shaeffer</small>
         <h1>want an unbiased random scripture?</h1>
         <p>(btw it's a true weighted random scripture based on rejection sampling)</p>
-        <p>(most statiscally accurate random scripture possible)</p>
+        <p>(most statistically accurate random scripture possible)</p>
         <button style={{padding: '10px', width: '80px', cursor: 'pointer'}} onClick={() => setScrip(getScrip())}>yes</button>
         <h1>{scrip}</h1>
       </div>
