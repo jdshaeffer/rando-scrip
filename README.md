@@ -1,6 +1,6 @@
 # 🤓 rando-scrip 🤓
 
-This is a simple Next.js project with a little experiment in statistics. It finds a weighted-random scripture in the Latter-day Saint canon. I believe it's the most accurate way of finding a true random scripure.
+This is a small experiment on some statistics that I was curious about. It finds a weighted-random scripture in the Latter-day Saint canon. I believe it's the most accurate way of finding a true random scripure.
 
 It goes like:
 Collection (weighted by # of pages), Book (weighted by # of pages), Chapter (weighted by # of verses), Verse (random selection from total verses in chapter)
