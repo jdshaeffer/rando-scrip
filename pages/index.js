@@ -11,7 +11,10 @@ const Home = () => {
         <title>rando scrip</title>
       </Head>
       <div style={{margin: '50px'}}>
-        <small>written by j.d. shaeffer</small>
+        <small>written by j.d. shaeffer. <a
+          href='https://github.com/jdshaeffer/rando-scrip'
+          style={{textDecoration: 'underline'}}
+        >source code</a>.</small>
         <h1>want an unbiased random scripture?</h1>
         <p>(btw it's a true weighted random scripture based on rejection sampling)</p>
         <p>(most statistically accurate random scripture possible)</p>
